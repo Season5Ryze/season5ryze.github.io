@@ -24,7 +24,7 @@ url                      : "season5ryze.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : season5ryze/season5ryze.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : /assets/images/GitHub Logo.png
+logo                     : #
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -64,7 +64,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -107,10 +107,10 @@ analytics:
 # Site Author
 author:
   name             : "Michael West"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/GitHub Logo.png
   bio              : "I am a high school student interested in machine learning and various other aspects of Data Science."
   location         : "Somewhere"
-  email            :
+  email            : kiwizfromspace@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -290,6 +290,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
